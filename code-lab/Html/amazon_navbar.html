@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .nav {
+        position: relative;
+        top: 0;
+      }
+      .first,
+      .second {
+        color: white;
+      }
+      .second td {
+        width: 100px;
+      }
+      .second td:hover,
+      .first td:hover {
+        border: 1px solid white;
+      }
+      .second td:last-child {
+        width: 290px;
+      }
+      .first td:first-child img {
+        width: 160px;
+        height: 50px;
+      }
+      .first input[type="text"] {
+        height: 20px;
+      }
+      input[type="submit"],
+      select {
+        height: 25px;
+      }
+      .content {
+        height: 500px;
+      }
+
+      .footer {
+        background-color: black;
+      }
+      .footer .link {
+        height: 50px;
+        background-color: rgb(37, 37, 37);
+      }
+
+      .link center > a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .link {
+        padding-top: 20px;
+      }
+      .bottom {
+        color: white;
+        text-align: center;
+      }
+      .bottom .col-1,
+      .col-2,
+      .col-3,
+      .col-4 {
+        display: inline-block;
+        width: 200px;
+        margin: 20px;
+      }
+      span {
+        line-height: 1.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top" class="nav">
+      <table class="first" cellpadding="4" bgcolor="black" width="100%">
+        <tbody>
+          <tr>
+            <td>
+              <a href="https://amazon.in" target="_blank"
+                ><img src="./amazon.png" alt="Amazon logo"
+              /></a>
+            </td>
+            <td>
+              Deliver to Shoaeeb <br />
+              📌 Serampore 712201
+            </td>
+            <td>
+              <form action="#">
+                <input size="30" type="text" placeholder="Search Amazon.in" />
+                <input type="Submit" value="🔍" />
+                <select name="language" id="language">
+                  <option value="eng">ENG</option>
+                  <option value="hin">HIN</option>
+                </select>
+              </form>
+            </td>
+            <td>
+              Hello,Shoaeeb <br />
+              Account & Lists
+            </td>
+            <td>Returns & Orders</td>
+            <td>🛒</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="second" cellpadding="4" bgcolor="black" width="100%">
+        <tbody>
+          <tr>
+            <td><i class="fa-solid fa-bars"></i> All</td>
+            <td>Fresh</td>
+            <td>Amazon Pay</td>
+            <td>Amazon miniTV</td>
+            <td>Sell</td>
+            <td>Gift Cards</td>
+            <td>Coupons</td>
+            <td>Great Freedom Sale |Shop Now ></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="content"></div>
+    <div class="footer">
+      <div class="link">
+        <center>
+          <a href="#top">Back to Top</a>
+        </center>
+      </div>
+      <div class="bottom">
+        <div class="col-1">
+          <h3>Get to Know Us</h3>
+          <span>About Us</span>
+          <br />
+          <span>Careers</span>
+          <br />
+          <span>Press Releases</span>
+          <br />
+          <span>Amazon Science</span>
+        </div>
+        <div class="col-2">
+          <h3>Connect With Us</h3>
+          <span style="visibility: hidden">Facebook</span>
+          <br />
+          <span>FaceBook</span>
+          <br />
+          <span>Twitter</span>
+          <br />
+          <span>Instagram</span>
+          <br />
+        </div>
+        <div class="col-3">
+          <h3>Make Money With Us</h3>
+
+          <span>Sell On Amazon</span>
+          <br />
+          <span>Sell Under Amazon Accelerator</span>
+          <br />
+          <span>Amazon Global Selling</span>
+          <br />
+          <span>Protect and Build Your Brand</span>
+        </div>
+        <div class="col-4">
+          <h3>Let Us Help You</h3>
+
+          <span>COVID-19 and Amazon</span>
+          <br />
+          <span>Your Account</span>
+          <br />
+          <span>Returns Centre</span>
+          <br />
+          <span>100% Purchase Protection</span>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/4fa3142f6b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <!-- <link rel="stylesheet" href="taskk.css"> -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      .navbar {
+        box-sizing: border-box;
+        background-size: cover;
+        border-radius: 4px;
+        margin: 0%;
+        background-image: url("https://cdn.whats-on-netflix.com/wp-content/uploads/2023/02/04142711/renewed-netflix-shows-2023-beyond-1280x720.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .navbar,
+      labll {
+        color: #e90a0a;
+        font-size: 40px;
+        padding-left: 40px;
+        padding-top: 20px;
+        background-color: blue;
+      }
+      .navbar #lang {
+        float: right;
+        margin-right: 20px;
+      }
+      .navbar #rem {
+        float: right;
+      }
+
+      .main-box {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .main-table,
+      caption,
+      h3,
+      p {
+        color: #fff;
+        background-color: #cc1c1c;
+        font-size: 15px;
+      }
+      .main-table,
+      caption h1 {
+        color: #fff;
+        font-size: 30px;
+      }
+      .main-table #email {
+        background-color: #2ed106;
+        color: #fff;
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .header .options {
+        font-size: 1.3rem;
+        display: flex;
+        gap: 25px;
+        border: 1px solid red;
+      }
+      .options a {
+        color: #2c2323;
+        text-decoration: none;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="header">
+        <div class="logo">NETFLIX</div>
+        <div class="options">
+          <a href="#">Sign In</a>
+          <div class="select">
+            <a href="#">English</a>
+            <a class="hidden" href="#">Hindi </a>
+          </div>
+        </div>
+      </div>
+      <!-- <tr>
+        <td><label class="labll" for="">NETFLIX</label></td>
+        <td>
+          <select name="lang" id="lang">
+            <option value="eng">ENG</option>
+            <option value="hindi">HINDI</option>
+          </select>
+        </td>
+        <td><input id="rem" type="submit" value="Sign in" /></td>
+      </tr> -->
+
+      <div class="main-box">
+        <table class="main-table">
+          <tr>
+            <td>
+              <caption>
+                <h1>Unlimited movies, TV shows and more.</h1>
+                <h3>Watch anywhere,Cancel anytime.</h3>
+                <p>Ready to watch? Enter your Email Address</p>
+              </caption>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="email" placeholder="Email Address" /><input
+                id="email"
+                type="submit"
+                value="Get Started"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script>
+      document.querySelector(".select").addEventListener("click", function (e) {
+        [...document.querySelector(".select").children].forEach((ele) =>
+          ele.classList.toggle("hidden")
+        );
+      });
+    </script>
+  </body>
+</html>
