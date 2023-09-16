@@ -1,0 +1,65 @@
+
+1.	Reverse a Number: Implement a function that reverses the digits of a given number.
+
+2.	Check Palindrome: Write a function to check if a given word is a palindrome (reads the same forwards and backward).
+
+3.	Count Vowels: Create a function that counts the number of vowels in a given string.
+
+4.	Prime Number: Write a function that checks if a number is prime.
+
+5.	Leap Year: Implement a function to determine if a year is a leap year.
+
+6.	Calculate Age: Create a function that calculates a person's age based on their birth year.
+
+7.	Sum of Digits: Write a function that calculates the sum of the digits of a number.
+
+8.	Fibonacci Sequence: Implement a function to generate the Fibonacci sequence up to a given number of terms.
+
+9.	Power of a Number: Create a function to calculate the power of a number (e.g., 2^3).
+
+10.	GCD (Greatest Common Divisor): Write a function to find the greatest common divisor of two numbers.
+
+11.	Calculate BMI: Implement a function to calculate BMI (Body Mass Index) based on weight and height.
+
+12.	Generate Random Number: Create a function that generates a random number between two given values.
+
+13.	Check for Prime Factors: Write a function that finds all the prime factors of a given number.
+
+14.	Reverse a String: Implement a function that reverses the characters in a given string.
+
+15.	Check for Leap Seconds: Create a function that checks if a given year has a leap second (e.g., 1999).
+
+16.	Calculate Compound Interest: Write a function to calculate compound interest based on principal, rate, and time.
+
+17.	Check for Perfect Number: Implement a function that checks if a given number is a perfect number.
+
+18.	Calculate Exponentiation: Create a function to calculate the result of exponentiation without using the Math.pow function.
+
+19.	Odd or Even: Write a function that determines if a given number is odd or even.
+
+20.	Factorial: Create a function to calculate the factorial of a number.
+
+
+
+Task-1
+Why spend money on a fortune teller when you can create your own destiny? Write a JavaScript function called tellFortune with the following specifications:
+
+i)It should take four arguments: the number of children you'll have, the name of your future partner, the place you'll live in, and your future job title.
+ii)The function should display your fortune on the screen in the following format: "You will be a [job title] in [location], and married to [partner's name] with [number of children] kids."
+To complete the task, call the tellFortune function three times, each time with different values for the arguments to see different fortune predictions.
+
+Task-2
+"The Pet Age Calculator"
+
+Ever wondered how old your cat is in human years? Let's calculate it!
+
+Create a JavaScript function called calculatePetAge with the following specifications:
+
+i) It should take one argument: your pet's age.
+ii) Calculate your pet's age based on the conversion rate of 1 human year to 7 pet years (for example, for a cat).
+iii) Display the result on the screen in the format: "Your kitty is NN years old in cat years!"
+To make it more interesting, let's consider a bonus feature:
+
+Bonus: Add an additional argument to the function that allows you to specify the conversion rate of human years to pet years, accommodating different types of animals.
+
+Now, call the calculatePetAge function three times with various pet ages and conversion rates to see the pet's age in different contexts.
